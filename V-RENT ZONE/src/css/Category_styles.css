@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.categorySectionsTop {
+	margin-top: 25px;
+	display: inline-grid;
+	grid-template-columns: max-content max-content;
+	grid-template-rows: 425px;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 3px;
+	justify-content: center;
+	justify-items: center;
+}
+
+.categorySectionsBottom {
+	margin-top: 30px;
+	display: inline-grid;
+	grid-template-columns: max-content max-content;
+	grid-template-rows: 400px;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 3px;
+	justify-content: center;
+	justify-items: center;
+}
+
+.categorySectionsTop label {
+	margin: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.categorySectionsTop li {
+	margin: 5px;
+	font-size: 17px;
+}
+.categorySectionsBottom label {
+	margin: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.categorySectionsBottom li {
+	margin: 5px;
+	font-size: 17px;
+}
+
+
+.categorySectionsTop img{
+	max-width: 250px;
+}
+.categorySectionsBottom img{
+	max-width: 250px;
+}
+
+
+.LuxuaryVehi {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 300px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	transition-duration: 0.4s;	
+}
+.LuxuaryVehi:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+}
+.LuxuaryVehi img {
+	margin-top: 30px;
+}
+
+.GeneralVehi {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 300px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	transition-duration: 0.4s;
+}
+.GeneralVehi:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+	/*box-shadow: 0 4px 10px 0 rgba(30, 144, 255, 0.8);
+	box-shadow: 0 4px 10px 0 rgba(31, 255, 87, 0.8);*/
+}
+
+.IndustrialVehi {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 300px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	transition-duration: 0.4s;
+}
+.IndustrialVehi:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.ClassicalVehi {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 300px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	transition-duration: 0.4s;
+}
+.ClassicalVehi:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.OtherVehi {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 300px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	transition-duration: 0.4s;
+}
+.OtherVehi:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+	cursor: pointer;
+	border: none;
+	background-color: white;
+}
+.btn:hover {
+	color: blue;
+	font-size: 17px;
+}
+

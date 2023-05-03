@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+html {
+	height:100%;
+}
+
+body {
+	/*repeat-x;*/
+	margin:0;
+    padding:0;
+    height:100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.headData img.logo {
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.headData label {
+	position: relative;
+	
+	float: right;
+	margin-top: 10px;
+	margin-right: 35px;
+	font-weight: bold;
+	font-family: "Arial Black", sans-serif;
+	text-align: center;
+}
+
+
+.headData label a {
+	text-decoration: none;
+	color: black;
+}
+
+.headData label a:hover {
+	color: blue;
+}
+
+#visitProfile {
+	margin-bottom: 5px;
+	padding: 5px 27.5px 5px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#visitProfile:hover {
+	background-color: DodgerBlue;
+	cursor: pointer;
+}
+
+
+h1.header {
+	margin-bottom: 0;
+	margin-top: -40px;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+
+ul.main_menu {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding-left: 40px;
+	background-color: black;
+}
+
+ul.main_menu li {
+	float: left;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.main_menu a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.main_menu li :hover{
+	background-color: DodgerBlue;
+}
+
+/*.selectedMenuItem {
+	
+}*/
+
+ul.main_menu li :active {
+	background-color: #2196F3;
+	color: white;
+}
+
+
+.searchNav {
+	
+	padding-right: 40px;
+	float: right;
+}
+
+.searchNav input[type=text] {
+	margin-top: 4px;
+	padding: 6px 20px;
+    font-size: 17px;
+}
+
+.searchNav button {
+	float: right;
+	padding: 1px 8px;
+	margin-top: 4px;
+	margin-right: 4px;
+	font-size: 17px;
+}
+
+.searchNav #searchIMG {
+	width: 25px;
+	height: 25px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column; justify-content: center;
+	
+	margin-top: auto;
+	bottom: 0%;
+	
+	float:left;
+    min-width:100%;
+	
+	background: black;
+	color: white;
+}
+
+#footerTable {
+	border: none;
+	table-layout: fixed;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: "Georgia", Serif;
+}

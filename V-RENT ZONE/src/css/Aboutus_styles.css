@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.aboutus {
+	 
+	 width: 60%;
+	 padding-left:120px;
+	 
+}
+.aboutus h1{
+	color:green;
+	font-size:80px;
+}
+.aboutus  h4:hover{
+	color:blue;
+	font-size:20px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	padding:25px;
+	
+}
+.goal li:hover{
+	color:orange;
+	font-size:20px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	padding:15px;
+	
+}
+.goal h3{
+	color:green;
+	font-size:80px;
+}
+
+
+.vehig{
+	width: 100%;
+	padding-right:500px;
+	width: 60%;
+	height: auto;
+	bottom: 100;
+	
+	
+}
+
+.chartimage{
+	padding:120px;
+}
+.goal{
+	 width: 60%;
+	 padding:50px;
+	 
+}
+.button :hover{
+	width:100px;
+	height:20px;
+	
+	border-radius:25px;
+}
+#fname{
+	width:400px;
+	height:50px;
+}
+.fid{
+	width:600px;
+}
+.fid h4{
+	color:blue;
+	
+}
+.fid:hover{
+	color:orange;
+	font-size:20px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	padding:15px;
+	
+}

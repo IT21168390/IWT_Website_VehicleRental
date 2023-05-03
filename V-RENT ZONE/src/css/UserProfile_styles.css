@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* __ Content __ */
+/* __ User Profile __ */
+
+.profileArea {
+	
+}
+
+.profileEXTRA {
+	float: right;
+	display: grid;
+	grid-template-columns: max-content max-content;
+	margin-right: 100px; /* 10% */
+	
+}
+
+button.visitCategories, button.visitInbox {
+	padding: 10px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 90px;
+	background-color: #0080ff;
+	color: white;
+	box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.4);
+}
+button.visitCategories:hover, button.visitInbox:hover {
+	padding: 11px;
+	background-color: #19e619;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+}
+
+
+.profileInfo {
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	/*width: 400px;*/
+	max-width: 300px;
+	margin: auto;
+	margin-left: 100px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.profileInfo:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.uType {
+   color: grey;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+#profileOUT {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 8px;
+   color: white;
+   background-color: #000;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+}
+
+#profileOUT:hover{
+   opacity: 0.8;
+   background-color: red;
+}
+
+
+.profileData {
+	margin-left: 500px;
+	margin-right: 50px;
+	
+}
+
+.email_pass {
+	display: grid;
+	grid-template-columns: max-content max-content;
+}
+
+.email_pass input[type=email], .email_pass input[type=password] {
+	padding: 5px;
+	padding-right: 30px;
+	margin: 5px 0 10px 0;
+	margin-left: 10px;
+	font-size: 17px;
+}
+
+.email_pass label {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+button.securityChange {
+	border: none;
+	margin-left: 600px;
+	margin-top: -60px;
+	float: left;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	
+}
+button.securityChange:hover {
+	/*background-color: #00cc66;*/
+	background-color: blue;
+	cursor: pointer;
+}
+
+
+table.userInfo {
+	border: none;
+	font-size: 20px;
+	text-align: left;
+}
+
+table.userInfo input, table.userInfo label {
+	padding-right: 30px;
+	margin: 5px 0 10px 0;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+#userInfoColumn2 {
+	padding-left: 100px;
+}
+#userInfoColumn4 {
+	padding-left: 100px;
+}
+
+button.userInfoChange {
+	border: none;
+	float: left;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	
+}
+button.userInfoChange:hover {
+	background-color: blue;
+	/*background-color: #00cc66;*/
+	cursor: pointer;
+}
+
+
+

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.cardDetails {
+	border: 5px black solid;
+	width: 500px;
+	height: 475px;
+}
+
+.cardDetails input {
+	text-align: center;
+	padding: 5px;
+	width: 200px;
+}
+
+.cardDetails label {
+	font-size: 17px;
+}
+
+.submit-now-btn {
+	padding: 7.5px 12.5px 7.5px 12.5px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.submit-now-btn:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}

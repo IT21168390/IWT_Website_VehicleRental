@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.inboxM {
+	width: 90%;
+}
+
+.inboxM form {
+	background-color: gray;
+}
+
+.inboxM label {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
+#inboxMessages {
+	float: left;
+	width: 98%;
+	padding: 7px;
+	margin-bottom: 100px;
+	font-size: 17px;
+}

@@ -1,0 +1,65 @@
+.fieldset1 {
+	margin: 15px 15px 15px 15px;
+	text-align: left;
+	font-weight: normal;
+	}
+
+.legend1 {
+  font-weight: bold;
+  font-size:40px;
+}
+
+p.p1 {
+  font-weight: bold;
+  font-size:30px;
+}
+
+#NormalTable {
+	width:100%;
+	font-weight: normal;
+	}
+	
+#NormalTable th, td{
+     padding: 5px;
+	}
+
+
+
+.submit {
+	transition-duration: 0.5s;
+	border: 2px solid #ff6600;
+	border-radius: 12px;
+	padding: 10px 24px;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 25%;
+	margin-top:5px;
+	}
+      
+.submit:hover {
+	background-color: #f5f5f0;
+	}
+
+#RatesTable {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+}
+
+#RatesTable td, #RatesTable th {
+	border: 1px solid #000000;
+	padding: 8px;
+}
+
+#RatesTable tr:nth-child(odd){
+	background-color: #ccccb3;
+}
+
+#RatesTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #999999;
+	color: white;
+}
